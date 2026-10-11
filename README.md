@@ -30,11 +30,12 @@ No other vehicle or AI mods are required.
 3. **Backspace:** clear all pending target locks and reacquisition boxes.
 4. **Green light:** steady means ready to fire; blinking means firing is temporarily unavailable. Outside the firing sector, turn the vehicle in the direction indicated by the arrow.
 
-## v0.7.56
+## v0.7.57
 
 In-game vehicle name: **HMMWV LOSAT**. Missile and ammunition name: **MGM-166**.
 Logging is limited to basic load/installation messages, one short check per launch and real warnings/errors.
 Model, crew, optics, muzzle-position, target-assignment and acceleration-progress debug messages have been removed.
 Missile speed, penetration, guidance, models, textures and audio are unchanged from v0.7.55.
+Fixed vehicle display-name lookup through the native Unit base class. Cosmetic naming failures no longer restart vehicle installation or repeatedly print discovery errors.
 
 This repository distributes the mod; the release ZIP does not contain game assemblies, test programs or test logs.
