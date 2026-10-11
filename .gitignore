@@ -1,0 +1,15 @@
+/assets/
+/build/
+/build-*/
+/test-output/
+*.dll
+*.exe
+*.pdb
+*.zip
+*.wav
+*.png
+*.meshbin
+*.log
+.vs/
+.vscode/
+UserData/
